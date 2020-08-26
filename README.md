@@ -10,7 +10,7 @@
 
 ## build.gradle(app)
 
-  ######Add this at top of `build.gradle(app)` file
+  Add this at top of `build.gradle(app)` file
    
     apply plugin: 'kotlin-kapt'
     apply plugin: "androidx.navigation.safeargs.kotlin"
