@@ -1,16 +1,20 @@
 # android-dependency
 
-   build.gradle(project)
+# build.gradle(project)
     
     dependencies {
       classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.0-alpha04"
     }
 
-   build.gradle(app)
+# build.gradle(app)
+
+  Add this at top of `build.gradle(app)` file
    
     apply plugin: 'kotlin-kapt'
     apply plugin: "androidx.navigation.safeargs.kotlin"
 
+   JDK Compile Options 
+   
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
