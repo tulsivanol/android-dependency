@@ -1,12 +1,12 @@
 # Here are most useful list of android dependency 
 
-# build.gradle(project)
+## build.gradle(project)
     
     dependencies {
       classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.0-alpha04"
     }
 
-# build.gradle(app)
+## build.gradle(app)
 
   Add this at top of `build.gradle(app)` file
    
