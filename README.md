@@ -5,6 +5,8 @@
     dependencies {
       ...
       classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.0-alpha04"
+      ######Dagger hilt
+      classpath "com.google.dagger:hilt-android-gradle-plugin:2.28.3-alpha"
       ...
     }
 
